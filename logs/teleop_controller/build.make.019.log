@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target tank_teleop_joy[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/tank_teleop_joy.dir/src/tank_teleop_joy.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable /home/dylan/catkin__ws/devel/.private/teleop_controller/lib/teleop_controller/tank_teleop_joy[0m
+[100%] Built target tank_teleop_joy

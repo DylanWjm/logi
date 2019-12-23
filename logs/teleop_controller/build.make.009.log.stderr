@@ -1,0 +1,7 @@
+[01m[K/home/dylan/catkin__ws/src/teleop_controller/src/tank_teleop_joy.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/dylan/catkin__ws/src/teleop_controller/src/tank_teleop_joy.cpp:178:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktel[m[K’ was not declared in this scope
+         tel.Data_send();
+[01;32m[K         ^[m[K
+make[2]: *** [CMakeFiles/tank_teleop_joy.dir/src/tank_teleop_joy.cpp.o] Error 1
+make[1]: *** [CMakeFiles/tank_teleop_joy.dir/all] Error 2
+make: *** [all] Error 2

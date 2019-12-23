@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/dylan/catkin__ws/src/teleop_controller/cmake-build-debug/devel/setup.sh

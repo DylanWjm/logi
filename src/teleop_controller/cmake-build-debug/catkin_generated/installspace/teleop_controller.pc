@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: teleop_controller
+Description: Description of teleop_controller
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: joy roscpp std_msgs tf

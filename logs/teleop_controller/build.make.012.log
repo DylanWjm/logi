@@ -1,0 +1,35 @@
+[35m[1mScanning dependencies of target tank_teleop_joy[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/tank_teleop_joy.dir/src/tank_teleop_joy.cpp.o[0m
+[01m[K/home/dylan/catkin__ws/src/teleop_controller/src/tank_teleop_joy.cpp:[m[K In constructor ‘[01m[KTeleopTank::TeleopTank()[m[K’:
+[01m[K/home/dylan/catkin__ws/src/teleop_controller/src/tank_teleop_joy.cpp:87:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TeleopTank[m[K’ has no member named ‘[01m[Kcmd_vel[m[K’
+     this->cmd_vel.data = 0;
+[01;32m[K           ^[m[K
+[01m[K/home/dylan/catkin__ws/src/teleop_controller/src/tank_teleop_joy.cpp:88:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TeleopTank[m[K’ has no member named ‘[01m[Kcmd_str[m[K’
+     this->cmd_str.data = 0;
+[01;32m[K           ^[m[K
+[01m[K/home/dylan/catkin__ws/src/teleop_controller/src/tank_teleop_joy.cpp:89:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TeleopTank[m[K’ has no member named ‘[01m[Kcmd_dir[m[K’
+     this->cmd_dir.data = 0;  
+[01;32m[K           ^[m[K
+[01m[K/home/dylan/catkin__ws/src/teleop_controller/src/tank_teleop_joy.cpp:[m[K In member function ‘[01m[Kvoid TeleopTank::joyCallback(const ConstPtr&)[m[K’:
+[01m[K/home/dylan/catkin__ws/src/teleop_controller/src/tank_teleop_joy.cpp:106:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_str[m[K’ was not declared in this scope
+      cmd_str.data = (str_scale_*joy->axes[str_]); //角度
+[01;32m[K      ^[m[K
+[01m[K/home/dylan/catkin__ws/src/teleop_controller/src/tank_teleop_joy.cpp:108:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel[m[K’ was not declared in this scope
+      cmd_vel.data = (vel_scale_*joy->axes[vel_]);
+[01;32m[K      ^[m[K
+[01m[K/home/dylan/catkin__ws/src/teleop_controller/src/tank_teleop_joy.cpp:[m[K In member function ‘[01m[Kvoid TeleopTank::Data_send()[m[K’:
+[01m[K/home/dylan/catkin__ws/src/teleop_controller/src/tank_teleop_joy.cpp:117:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_str[m[K’ was not declared in this scope
+        cmd_str_.data = abs(50*cmd_str.data); //角度
+[01;32m[K                               ^[m[K
+[01m[K/home/dylan/catkin__ws/src/teleop_controller/src/tank_teleop_joy.cpp:135:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel[m[K’ was not declared in this scope
+         cmd_vel_.data = ((cmd_vel.data)-2);//倒车
+[01;32m[K                           ^[m[K
+[01m[K/home/dylan/catkin__ws/src/teleop_controller/src/tank_teleop_joy.cpp:139:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel[m[K’ was not declared in this scope
+        cmd_vel_.data = ((cmd_vel.data)+2);// cmd_vel_.data = -0.9*16*((cmd_vel.data)-2);
+[01;32m[K                          ^[m[K
+CMakeFiles/tank_teleop_joy.dir/build.make:62: recipe for target 'CMakeFiles/tank_teleop_joy.dir/src/tank_teleop_joy.cpp.o' failed
+make[2]: *** [CMakeFiles/tank_teleop_joy.dir/src/tank_teleop_joy.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/tank_teleop_joy.dir/all' failed
+make[1]: *** [CMakeFiles/tank_teleop_joy.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

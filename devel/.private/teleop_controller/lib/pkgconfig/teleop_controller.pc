@@ -1,0 +1,8 @@
+prefix=/home/dylan/catkin__ws/devel/.private/teleop_controller
+
+Name: teleop_controller
+Description: Description of teleop_controller
+Version: 0.0.0
+Cflags: -I/home/dylan/catkin__ws/src/teleop_controller/include
+Libs: -L/home/dylan/catkin__ws/devel/.private/teleop_controller/lib 
+Requires: joy roscpp std_msgs tf

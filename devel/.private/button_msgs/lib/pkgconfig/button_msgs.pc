@@ -1,0 +1,8 @@
+prefix=/home/dylan/catkin__ws/devel/.private/button_msgs
+
+Name: button_msgs
+Description: Description of button_msgs
+Version: 0.0.0
+Cflags: -I/home/dylan/catkin__ws/devel/.private/button_msgs/include
+Libs: -L/home/dylan/catkin__ws/devel/.private/button_msgs/lib 
+Requires: message_runtime

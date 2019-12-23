@@ -1,0 +1,12 @@
+[31m[1mCMake Error[0m at /home/dylan/catkin__ws/build/button_msgs/cmake/button_msgs-genmsg.cmake:3 (message):
+  Could not find messages which
+  '/home/dylan/catkin__ws/src/button_msgs/msg/button.msg' depends on.  Did
+  you forget to specify generate_messages(DEPENDENCIES ...)?
+
+  Cannot locate message [unit8] in package [button_msgs] with paths
+  [['/home/dylan/catkin__ws/src/button_msgs/msg']]
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/kinetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:18 (generate_messages)
+
+

@@ -1,0 +1,8 @@
+prefix=/home/dylan/catkin__ws/install
+
+Name: button_msgs
+Description: Description of button_msgs
+Version: 0.0.0
+Cflags: -I/home/dylan/catkin__ws/install/include
+Libs: -L/home/dylan/catkin__ws/install/lib 
+Requires: message_runtime

@@ -1,0 +1,7 @@
+CMakeFiles/tank_teleop_joy.dir/src/client.cpp.o：在函数‘main’中：
+client.cpp:(.text.startup+0x0): `main'被多次定义
+CMakeFiles/tank_teleop_joy.dir/src/tank_teleop_joy.cpp.o:tank_teleop_joy.cpp:(.text.startup+0x0)：第一次在此定义
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/dylan/catkin__ws/devel/.private/teleop_controller/lib/teleop_controller/tank_teleop_joy] Error 1
+make[1]: *** [CMakeFiles/tank_teleop_joy.dir/all] Error 2
+make: *** [all] Error 2

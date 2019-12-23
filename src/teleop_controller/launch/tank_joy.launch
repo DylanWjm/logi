@@ -1,0 +1,20 @@
+<launch> 
+
+ <!-- joy node --> 
+ <node respawn="true" pkg="joy"
+        type="joy_node" name="tank_joy" > 
+ <param name="dev" type="string" value="/dev/input/js0" /> 
+ <param name="deadzone" value="0.1" /> 
+ </node> 
+
+ <!-- Axes -->  
+    <param name="axis_str" value="0" type="int"/> 
+    <param name="axis_vel" value="2" type="int"/> <!--g29=2,xbox=5-->
+    <param name="button_rev" value="0" type="int"/>
+    <param name="button_rev1" value="1" type="int"/>
+    <param name="button_rev2" value="2" type="int"/>
+    <param name="button_rev3" value="3" type="int"/>
+    <param name="scale_str" value="2" type="double"/> 
+    <param name="scale_vel" value="2" type="double"/> 
+    <node pkg="teleop_controller" type="tank_teleop_joy" name="teleop_tank"/>
+ </launch>

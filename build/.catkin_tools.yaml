@@ -1,0 +1,6 @@
+devel_space: /home/dylan/catkin__ws/devel
+install: false
+install_space: /home/dylan/catkin__ws/install
+profile: default
+source_space: /home/dylan/catkin__ws/src
+workspace: /home/dylan/catkin__ws
